@@ -32,7 +32,7 @@ if status --is-interactive
 	abbr -a gd git diff
 	abbr -a gdd git diff --cached
 	abbr -a gl git log
-	abbr -a gla "git log --graph --all --pretty format:%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset --abbrev-commit --date relative"
+	abbr -a gla "git log --graph --all --pretty='format:%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date relative"
 	abbr -a ga git add
 	abbr -a gc git commit
 	abbr -a gsh git push
