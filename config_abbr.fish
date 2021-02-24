@@ -45,5 +45,5 @@ if status --is-interactive
 
 	abbr -a ht "head -n 1 | tail -n 1"
 	abbr -a jql "jq -C '.' | less -R"
-  abbr -a "cd (ghq list --full-path | peco)"
+  abbr -a ghql "cd (ghq list --full-path | peco)"
 end
