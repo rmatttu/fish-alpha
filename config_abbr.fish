@@ -39,9 +39,9 @@ if status --is-interactive
 	abbr -a gll git pull
 	abbr -a gch git checkout
 
-	abbr -a dcu docker-compose up
-	abbr -a dcud docker-compose up -d
-	abbr -a dcd docker-compose down
+	abbr -a dcu docker compose up
+	abbr -a dcud docker compose up -d
+	abbr -a dcd docker compose down
 
 	abbr -a ht "head -n 1 | tail -n 1"
 	abbr -a jql "jq -C '.' | less -R"
