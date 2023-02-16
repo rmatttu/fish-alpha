@@ -15,7 +15,7 @@ if status --is-interactive
 
 	abbr -a h history
 	abbr -a tailf tail -f
-	abbr -a diff diff -U1
+	abbr -a diff diff -U0
 	abbr -a diffc colordiff
 
 	abbr -a so source
