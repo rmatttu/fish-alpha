@@ -4,6 +4,10 @@ fish configure.
 
 ## Usage
 
+```bash
+mkdir -p ~/.config/fish && curl -sLJ https://github.com/rmatttu/fish-alpha/releases/latest/download/release.tar.gz | tar zxf - -C ~/.config/fish
+```
+
 ## Requirements
 
 ## Installation
