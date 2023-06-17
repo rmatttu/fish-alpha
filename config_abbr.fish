@@ -18,6 +18,8 @@ if status --is-interactive
 	abbr -a diff diff -U0
 	abbr -a diffc colordiff
 
+	abbr -a e. "explorer.exe ."
+
 	abbr -a so source
 	abbr -a sob source ~/.bash_profile
 	abbr -a sof source ~/.config/fish/config.fish
